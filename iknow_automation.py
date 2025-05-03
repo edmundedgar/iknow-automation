@@ -144,7 +144,8 @@ def login(driver):
 def add_vocabulary(driver, word, pinyin, meaning):
     try:
         print("Navigating to add item page...")
-        driver.get("https://iknow.jp/custom/courses/1107063#!/new")
+        course_id = os.getenv('IKNOW_COURSE_ID')
+        driver.get(f"https://iknow.jp/custom/courses/{course_id}#!/new")
         time.sleep(2)  # Give page time to load
         
         print("Looking for form fields...")
