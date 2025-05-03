@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  
+  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <meta charset="utf-8" />
+  <title>chinese week 6 - Custom Courses - iKnow!</title>
+  
+  
+  <meta name="author" content="合同会社DMM.com - https://dmm-corp.com/company/" />
+  <meta name="copyright" content="(C) 2015 DMM" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://assets2.iknow.jp/_assets/common/favicon_production-8a10a921edbc547f5c00d318eafb5e871df49e32cb3058e8e7ae6945c4622b56.ico" />
+  <link rel="alternate" hreflang="en" href="https://en.iknow.jp/custom/courses/1107063" /><link rel="alternate" hreflang="ja" href="https://ja.iknow.jp/custom/courses/1107063" />
+  
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="kYeEPFh7I8/Te9guLUwwY/+rrHwR0XEQh0zCzKu/pqW86rzb7Bfm3ns0jFjZG3Rsew4HW65V4n/AxLXZQqFcEg==" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" media="all" href="https://assets2.iknow.jp/_assets/application-24a87a967929c45ba131a0553e97110a453ce6077d4110aa83a64c715e1ec2a6.css" />
+  
+  <link rel="stylesheet" media="all" href="https://assets1.iknow.jp/_assets/admin-e427aa9c8ca7057e5764c860584fc0725b83f96154856415af56b41e3497fbfd.css" />
+
+
+  
+<script type="text/javascript">
+  (function setupEnvironment() {
+    window.App = window.App || {};
+
+    // Load initial data from server.
+    var e = {"controller":"courses","namespace":"custom/courses","layout":"application","action":"show","session":"logged-in","role":"user","language":"en"};
+
+    e.isDevelopment = false;
+    e.isTest        = false;
+    e.isTesting     = false;
+    e.isStable      = false;
+    e.isProduction  = true;
+    e.assetHost     = 'assets%d.iknow.jp';
+    e.assetPath     = '/_assets';
+    e.assetCdns     = 4;
+    e.transcoderHost = 'transcode-v2.app.engoo.com';
+
+
+    e.API = e.API || {};
+
+    e.API.version = 2;
+    e.API.token   = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOjUwNzU3LCJlbWFpbCI6Im9ubGluZUBlZG9jaGFuLmNvbSIsInBob25lIjoiIiwiaWF0IjoxNzQ2MDg3MzQwLCJleHAiOjE3NDg1MDY1NDAsImp0aSI6IjdtVTBGOEd0T2NqSlRJNFR4NFR5ME1FdTR4Yz0ifQ.xvUaj6upOPggeM0N-HSQpufdhXdQAJQR13hn_D_ocWQ";
+    e.API.server  = "//api.iknow.jp/";
+    e.API.key     = "2ce3f515a02e816b2240e4f1";
+
+    e.User = e.User || {};
+
+    e.User.username           = "edochan";
+    e.User.sharableIdentifier = "70bdd6cf9d12453de937434b509993a5";
+    e.User.isPremium          = true;
+    e.User.admin              = false;
+    e.User.groupRestrictions  = { canResetItemProgress: true };
+
+    App.Environment = e;
+  }());
+</script>
+
+
+  <script src="https://assets0.iknow.jp/_assets/jquery-migrate-ui-0590d18c976f9273027131bce660ae06ffab6be66a859ad1562ea790b2aee3b5.js"></script>
+
+    <meta content="{&quot;about a minute ago&quot;:&quot;about a minute ago&quot;,&quot;about an hour ago&quot;:&quot;about an hour ago&quot;,&quot;add at least {count} items needed to study \u0026 publish&quot;:&quot;This course requires at least %{count} items to be studied. |||| This course requires at least %{count} items to be studied.&quot;,&quot;add items&quot;:&quot;Add Items&quot;,&quot;add items to course&quot;:&quot;Add to course&quot;,&quot;add to courses&quot;:&quot;Add to Courses&quot;,&quot;add to focus&quot;:&quot;Add to Studying&quot;,&quot;advanced&quot;:&quot;Advanced&quot;,&quot;almost&quot;:&quot;Almost!&quot;,&quot;am&quot;:&quot;am&quot;,&quot;app-branding.sentence-trainer&quot;:&quot;Sentence Trainer&quot;,&quot;apply&quot;:&quot;Apply&quot;,&quot;badge-repeat&quot;:&quot;Retry&quot;,&quot;beginner&quot;:&quot;Beginner&quot;,&quot;choose a course&quot;:&quot;Choose a course to add these items to:&quot;,&quot;choose-item-difficulty&quot;:&quot;\u0026nbsp;&quot;,&quot;course-tabs.custom-courses-no-courses&quot;:&quot;You haven&#39;t made any custom courses yet. Click \&quot;new course\&quot; to make a custom course.&quot;,&quot;course-tabs.items-zone-1&quot;:&quot;Familiar&quot;,&quot;course-tabs.items-zone-2&quot;:&quot;Mastered&quot;,&quot;course-tabs.no-results&quot;:&quot;No courses found&quot;,&quot;course-tabs.now-studying-no-courses&quot;:&quot;All the courses you&#39;re studying will appear here.\u003cbr/\u003eChoose courses to study from the course directory and iKnow! will tell you what to study next.&quot;,&quot;course-tabs.saved-courses-no-courses&quot;:&quot;Saved courses are courses you want to study in the future. You don&#39;t have any saved courses now.&quot;,&quot;course-tabs.started&quot;:&quot;Started&quot;,&quot;course-tabs.time-studied&quot;:&quot;Time&quot;,&quot;create a new course&quot;:&quot;Create a New Course&quot;,&quot;create custom course&quot;:&quot;Create Custom Course&quot;,&quot;dashboard.recommended-next&quot;:&quot;Next Recommended&quot;,&quot;dashboard.study-progress&quot;:&quot;Study Progress&quot;,&quot;dashboard_tab.custom-courses&quot;:&quot;Custom&quot;,&quot;dashboard_tab.saved-courses&quot;:&quot;Saved&quot;,&quot;default&quot;:&quot;Default&quot;,&quot;defer items&quot;:&quot;Postpone Study&quot;,&quot;dmm-refresh.error&quot;:&quot;There was an error checking your status. Please try again.&quot;,&quot;dmm-refresh.not-premium&quot;:&quot;You&#39;re not a DMM Eikaiwa premium member, so you don&#39;t get free iKnow! access.&quot;,&quot;dmm-refresh.unexpected-error&quot;:&quot;There was an error checking your status. Please contact customer support.&quot;,&quot;do you know this word?&quot;:&quot;Do you know this?&quot;,&quot;don&#39;t know&quot;:&quot;Don&#39;t Know&quot;,&quot;dont-know&quot;:&quot;Don&#39;t Know&quot;,&quot;dont-know-review&quot;:&quot;I forgot it&quot;,&quot;easy&quot;:&quot;Study Less&quot;,&quot;enter&quot;:&quot;Enter&quot;,&quot;filter items&quot;:&quot;Filter items&quot;,&quot;focused-courses&quot;:&quot;Studying&quot;,&quot;growl-message.all-series-courses-focused&quot;:&quot;All courses in this series have been added to studying&quot;,&quot;growl-message.all-series-courses-focused-error&quot;:&quot;There was an error adding courses--please try again&quot;,&quot;growl-message.goal-enroll-error&quot;:&quot;There was a problem saving this course. Please try again.&quot;,&quot;growl-message.goal-focus-error&quot;:&quot;There was a problem adding this course. Please try again.&quot;,&quot;growl-message.goal-unenroll-error&quot;:&quot;There was a problem removing this course. Please try again.&quot;,&quot;growl-message.goal-unfocus-error&quot;:&quot;There was a problem removing this course. Please try again.&quot;,&quot;growl-message.unexpected-error&quot;:&quot;Something went wrong. Please try again.&quot;,&quot;hard&quot;:&quot;Study More&quot;,&quot;hours ago&quot;:&quot;%{hours} hours ago&quot;,&quot;iknow.label&quot;:&quot;iKnow!&quot;,&quot;intermediate&quot;:&quot;Intermediate&quot;,&quot;items added to goal&quot;:&quot;Adding item(s) to course&quot;,&quot;items-label&quot;:&quot;Items:&quot;,&quot;items-mastered&quot;:&quot;Mastered Items&quot;,&quot;items-started&quot;:&quot;Started Items&quot;,&quot;items-zone-1&quot;:&quot;Familiar Items&quot;,&quot;js_iknow.annotations&quot;:&quot;Annotations&quot;,&quot;js_iknow.new item&quot;:&quot;New&quot;,&quot;js_iknow.next&quot;:&quot;Next&quot;,&quot;js_iknow.no&quot;:&quot;No&quot;,&quot;js_iknow.remove&quot;:&quot;Remove&quot;,&quot;js_iknow.review&quot;:&quot;Review&quot;,&quot;js_iknow.well done!&quot;:&quot;Correct!&quot;,&quot;js_iknow.yes&quot;:&quot;Yes&quot;,&quot;language-display-aa&quot;:&quot;Afar&quot;,&quot;language-display-ab&quot;:&quot;Abkhazian&quot;,&quot;language-display-ae&quot;:&quot;Avestan&quot;,&quot;language-display-af&quot;:&quot;Afrikaans&quot;,&quot;language-display-ain&quot;:&quot;Ainu&quot;,&quot;language-display-ak&quot;:&quot;Akan&quot;,&quot;language-display-am&quot;:&quot;Amharic&quot;,&quot;language-display-an&quot;:&quot;Aragonese&quot;,&quot;language-display-ang&quot;:&quot;Old English&quot;,&quot;language-display-ar&quot;:&quot;Arabic&quot;,&quot;language-display-arc&quot;:&quot;Aramaic&quot;,&quot;language-display-as&quot;:&quot;Assamese&quot;,&quot;language-display-ast&quot;:&quot;Asturian&quot;,&quot;language-display-av&quot;:&quot;Avaric&quot;,&quot;language-display-ay&quot;:&quot;Aymara&quot;,&quot;language-display-az&quot;:&quot;Azerbaijani&quot;,&quot;language-display-ba&quot;:&quot;Bashkir&quot;,&quot;language-display-be&quot;:&quot;Belarusian&quot;,&quot;language-display-bg&quot;:&quot;Bulgarian&quot;,&quot;language-display-bi&quot;:&quot;Bislama&quot;,&quot;language-display-bm&quot;:&quot;Bambara&quot;,&quot;language-display-bn&quot;:&quot;Bengali&quot;,&quot;language-display-bo&quot;:&quot;Tibetan&quot;,&quot;language-display-br&quot;:&quot;Breton&quot;,&quot;language-display-bs&quot;:&quot;Bosnian&quot;,&quot;language-display-ca&quot;:&quot;Catalan&quot;,&quot;language-display-ce&quot;:&quot;Chechen&quot;,&quot;language-display-ch&quot;:&quot;Chamorro&quot;,&quot;language-display-co&quot;:&quot;Corsican&quot;,&quot;language-display-cr&quot;:&quot;Cree&quot;,&quot;language-display-cs&quot;:&quot;Czech&quot;,&quot;language-display-cu&quot;:&quot;Slavic&quot;,&quot;language-display-cv&quot;:&quot;Chuvash&quot;,&quot;language-display-cy&quot;:&quot;Welsh&quot;,&quot;language-display-da&quot;:&quot;Danish&quot;,&quot;language-display-de&quot;:&quot;German&quot;,&quot;language-display-dv&quot;:&quot;Divehi&quot;,&quot;language-display-dz&quot;:&quot;Dzongkha&quot;,&quot;language-display-ee&quot;:&quot;Ewe&quot;,&quot;language-display-egy&quot;:&quot;Egyptian&quot;,&quot;language-display-el&quot;:&quot;Greek&quot;,&quot;language-display-en&quot;:&quot;English&quot;,&quot;language-display-enm&quot;:&quot;Middle English&quot;,&quot;language-display-eo&quot;:&quot;Esperanto&quot;,&quot;language-display-es&quot;:&quot;Spanish&quot;,&quot;language-display-et&quot;:&quot;Estonian&quot;,&quot;language-display-eu&quot;:&quot;Basque&quot;,&quot;language-display-fa&quot;:&quot;Persian&quot;,&quot;language-display-ff&quot;:&quot;Fulah&quot;,&quot;language-display-fi&quot;:&quot;Finnish&quot;,&quot;language-display-fj&quot;:&quot;Fijian&quot;,&quot;language-display-fo&quot;:&quot;Faroese&quot;,&quot;language-display-fr&quot;:&quot;French&quot;,&quot;language-display-fy&quot;:&quot;Frisian&quot;,&quot;language-display-ga&quot;:&quot;Irish&quot;,&quot;language-display-gd&quot;:&quot;Scottish Gaelic&quot;,&quot;language-display-gl&quot;:&quot;Gallegan&quot;,&quot;language-display-gn&quot;:&quot;Guarani&quot;,&quot;language-display-grc&quot;:&quot;Ancient Greek&quot;,&quot;language-display-gu&quot;:&quot;Gujarati&quot;,&quot;language-display-gv&quot;:&quot;Manx&quot;,&quot;language-display-ha&quot;:&quot;Hausa&quot;,&quot;language-display-haw&quot;:&quot;Hawaiian&quot;,&quot;language-display-he&quot;:&quot;Hebrew&quot;,&quot;language-display-hi&quot;:&quot;Hindi&quot;,&quot;language-display-hit&quot;:&quot;Hittite&quot;,&quot;language-display-ho&quot;:&quot;Hiri Motu&quot;,&quot;language-display-hr&quot;:&quot;Croatian&quot;,&quot;language-display-ht&quot;:&quot;Haitian&quot;,&quot;language-display-hu&quot;:&quot;Hungarian&quot;,&quot;language-display-hy&quot;:&quot;Armenian&quot;,&quot;language-display-hz&quot;:&quot;Herero&quot;,&quot;language-display-ia&quot;:&quot;Interlingua&quot;,&quot;language-display-id&quot;:&quot;Indonesian&quot;,&quot;language-display-ig&quot;:&quot;Igbo&quot;,&quot;language-display-ii&quot;:&quot;Yi&quot;,&quot;language-display-ik&quot;:&quot;Inupiaq&quot;,&quot;language-display-io&quot;:&quot;Ido&quot;,&quot;language-display-is&quot;:&quot;Icelandic&quot;,&quot;language-display-it&quot;:&quot;Italian&quot;,&quot;language-display-iu&quot;:&quot;Inuktitut&quot;,&quot;language-display-ja&quot;:&quot;Japanese&quot;,&quot;language-display-jbo&quot;:&quot;Lojban&quot;,&quot;language-display-jv&quot;:&quot;Javanese&quot;,&quot;language-display-ka&quot;:&quot;Georgian&quot;,&quot;language-display-kg&quot;:&quot;Kongo&quot;,&quot;language-display-ki&quot;:&quot;Kikuyu&quot;,&quot;language-display-kj&quot;:&quot;Kuanyama&quot;,&quot;language-display-kk&quot;:&quot;Kazakh&quot;,&quot;language-display-kl&quot;:&quot;Kalaallisut&quot;,&quot;language-display-km&quot;:&quot;Khmer&quot;,&quot;language-display-kn&quot;:&quot;Kannada&quot;,&quot;language-display-ko&quot;:&quot;Korean&quot;,&quot;language-display-kr&quot;:&quot;Kanuri&quot;,&quot;language-display-ks&quot;:&quot;Kashmiri&quot;,&quot;language-display-ku&quot;:&quot;Kurdish&quot;,&quot;language-display-kv&quot;:&quot;Komi&quot;,&quot;language-display-kw&quot;:&quot;Cornish&quot;,&quot;language-display-ky&quot;:&quot;Kirghiz&quot;,&quot;language-display-la&quot;:&quot;Latin&quot;,&quot;language-display-lb&quot;:&quot;Letzeburgesch&quot;,&quot;language-display-lg&quot;:&quot;Ganda&quot;,&quot;language-display-li&quot;:&quot;Limburgish&quot;,&quot;language-display-ln&quot;:&quot;Lingala&quot;,&quot;language-display-lo&quot;:&quot;Lao&quot;,&quot;language-display-lt&quot;:&quot;Lithuanian&quot;,&quot;language-display-lu&quot;:&quot;Luba-Katanga&quot;,&quot;language-display-lv&quot;:&quot;Latvian&quot;,&quot;language-display-mg&quot;:&quot;Malagasy&quot;,&quot;language-display-mh&quot;:&quot;Marshall&quot;,&quot;language-display-mi&quot;:&quot;Maori&quot;,&quot;language-display-mk&quot;:&quot;Macedonian&quot;,&quot;language-display-ml&quot;:&quot;Malayalam&quot;,&quot;language-display-mn&quot;:&quot;Mongolian&quot;,&quot;language-display-mo&quot;:&quot;Moldavian&quot;,&quot;language-display-mr&quot;:&quot;Marathi&quot;,&quot;language-display-ms&quot;:&quot;Malay&quot;,&quot;language-display-mt&quot;:&quot;Maltese&quot;,&quot;language-display-my&quot;:&quot;Burmese&quot;,&quot;language-display-na&quot;:&quot;Nauru&quot;,&quot;language-display-nd&quot;:&quot;Ndebele, North&quot;,&quot;language-display-ne&quot;:&quot;Nepali&quot;,&quot;language-display-ng&quot;:&quot;Ndonga&quot;,&quot;language-display-nl&quot;:&quot;Dutch&quot;,&quot;language-display-no&quot;:&quot;Norwegian&quot;,&quot;language-display-nr&quot;:&quot;Ndebele, South&quot;,&quot;language-display-nv&quot;:&quot;Navajo&quot;,&quot;language-display-ny&quot;:&quot;Chichewa; Nyanja&quot;,&quot;language-display-oc&quot;:&quot;Occitan&quot;,&quot;language-display-och&quot;:&quot;Classical Chinese&quot;,&quot;language-display-oj&quot;:&quot;Ojibwa&quot;,&quot;language-display-ojp&quot;:&quot;Classical Japanese&quot;,&quot;language-display-om&quot;:&quot;Oromo&quot;,&quot;language-display-or&quot;:&quot;Oriya&quot;,&quot;language-display-os&quot;:&quot;Ossetian; Ossetic&quot;,&quot;language-display-pa&quot;:&quot;Panjabi&quot;,&quot;language-display-pl&quot;:&quot;Polish&quot;,&quot;language-display-ps&quot;:&quot;Pushto&quot;,&quot;language-display-pt&quot;:&quot;Portuguese&quot;,&quot;language-display-qu&quot;:&quot;Quechua&quot;,&quot;language-display-qya&quot;:&quot;Quenya&quot;,&quot;language-display-rm&quot;:&quot;Raeto-Romance&quot;,&quot;language-display-rn&quot;:&quot;Rundi&quot;,&quot;language-display-ro&quot;:&quot;Romanian&quot;,&quot;language-display-ru&quot;:&quot;Russian&quot;,&quot;language-display-rw&quot;:&quot;Kinyarwanda&quot;,&quot;language-display-sa&quot;:&quot;Sanskrit&quot;,&quot;language-display-sc&quot;:&quot;Sardinian&quot;,&quot;language-display-sd&quot;:&quot;Sindhi&quot;,&quot;language-display-se&quot;:&quot;Northern Sami&quot;,&quot;language-display-sg&quot;:&quot;Sango&quot;,&quot;language-display-si&quot;:&quot;Sinhalese&quot;,&quot;language-display-sjn&quot;:&quot;Sindarin&quot;,&quot;language-display-sk&quot;:&quot;Slovak&quot;,&quot;language-display-sl&quot;:&quot;Slovenian&quot;,&quot;language-display-sm&quot;:&quot;Samoan&quot;,&quot;language-display-sn&quot;:&quot;Shona&quot;,&quot;language-display-so&quot;:&quot;Somali&quot;,&quot;language-display-sq&quot;:&quot;Albanian&quot;,&quot;language-display-sr&quot;:&quot;Serbian&quot;,&quot;language-display-ss&quot;:&quot;Swati&quot;,&quot;language-display-st&quot;:&quot;Sotho&quot;,&quot;language-display-su&quot;:&quot;Sundanese&quot;,&quot;language-display-sv&quot;:&quot;Swedish&quot;,&quot;language-display-sw&quot;:&quot;Swahili&quot;,&quot;language-display-ta&quot;:&quot;Tamil&quot;,&quot;language-display-te&quot;:&quot;Telugu&quot;,&quot;language-display-tg&quot;:&quot;Tajik&quot;,&quot;language-display-th&quot;:&quot;Thai&quot;,&quot;language-display-ti&quot;:&quot;Tigrinya&quot;,&quot;language-display-tk&quot;:&quot;Turkmen&quot;,&quot;language-display-tl&quot;:&quot;Tagalog&quot;,&quot;language-display-tlh&quot;:&quot;Klingon&quot;,&quot;language-display-tn&quot;:&quot;Tswana&quot;,&quot;language-display-to&quot;:&quot;Tonga&quot;,&quot;language-display-tr&quot;:&quot;Turkish&quot;,&quot;language-display-ts&quot;:&quot;Tsonga&quot;,&quot;language-display-tt&quot;:&quot;Tatar&quot;,&quot;language-display-tw&quot;:&quot;Twi&quot;,&quot;language-display-txb&quot;:&quot;Tokharian B&quot;,&quot;language-display-ty&quot;:&quot;Tahitian&quot;,&quot;language-display-ug&quot;:&quot;Uighur&quot;,&quot;language-display-uk&quot;:&quot;Ukrainian&quot;,&quot;language-display-ur&quot;:&quot;Urdu&quot;,&quot;language-display-uz&quot;:&quot;Uzbek&quot;,&quot;language-display-ve&quot;:&quot;Venda&quot;,&quot;language-display-vec&quot;:&quot;Venetian&quot;,&quot;language-display-vi&quot;:&quot;Vietnamese&quot;,&quot;language-display-vo&quot;:&quot;Volapük&quot;,&quot;language-display-wa&quot;:&quot;Walloon&quot;,&quot;language-display-wo&quot;:&quot;Wolof&quot;,&quot;language-display-xh&quot;:&quot;Xhosa&quot;,&quot;language-display-xto&quot;:&quot;Tokharian A&quot;,&quot;language-display-yi&quot;:&quot;Yiddish&quot;,&quot;language-display-za&quot;:&quot;Zhuang&quot;,&quot;language-display-zh-hans&quot;:&quot;Chinese (Simplified)&quot;,&quot;language-display-zh-hant&quot;:&quot;Chinese (Traditional)&quot;,&quot;language-display-zh-hk&quot;:&quot;Cantonese&quot;,&quot;language-display-zh-tw&quot;:&quot;Taiwanese&quot;,&quot;language-display-zu&quot;:&quot;Zulu&quot;,&quot;language-label&quot;:&quot;Language:&quot;,&quot;launch&quot;:&quot;start&quot;,&quot;less than a minute ago&quot;:&quot;less than a minute ago&quot;,&quot;level-label&quot;:&quot;Level:&quot;,&quot;lower intermediate&quot;:&quot;Lower Intermediate&quot;,&quot;mark-as-incorrect&quot;:&quot;Mark as incorrect&quot;,&quot;master items&quot;:&quot;Master&quot;,&quot;minutes ago&quot;:&quot;%{minutes} minutes ago&quot;,&quot;mistakes&quot;:&quot;Misses:&quot;,&quot;move-to-now-studying&quot;:&quot;Move to Studying&quot;,&quot;move-to-saved&quot;:&quot;Move to Saved&quot;,&quot;next-study-time&quot;:&quot;Next Session:&quot;,&quot;not-started&quot;:&quot;Not started&quot;,&quot;not-well&quot;:&quot;Not Well&quot;,&quot;not-well-review&quot;:&quot;Not Well&quot;,&quot;note&quot;:&quot;Note&quot;,&quot;now&quot;:&quot;Now&quot;,&quot;now you say it&quot;:&quot;Now practice saying it...&quot;,&quot;ok&quot;:&quot;OK&quot;,&quot;on this date at&quot;:&quot;%{month} %{date} at %{hours}:%{minutes}%{twelve_hour}&quot;,&quot;on this date with year at&quot;:&quot;%{month} %{date}, %{year} at %{hours}:%{minutes}%{twelve_hour}&quot;,&quot;over a year from now&quot;:&quot;over a year from now&quot;,&quot;play audio&quot;:&quot;Play audio&quot;,&quot;pm&quot;:&quot;pm&quot;,&quot;pos.adjectival noun&quot;:&quot;Adjectival Noun&quot;,&quot;pos.adjective&quot;:&quot;Adjective&quot;,&quot;pos.adverb&quot;:&quot;Adverb&quot;,&quot;pos.auxiliary verb&quot;:&quot;Auxiliary Verb&quot;,&quot;pos.conjunction&quot;:&quot;Conjunction&quot;,&quot;pos.determiner&quot;:&quot;Determiner&quot;,&quot;pos.interjection&quot;:&quot;Interjection&quot;,&quot;pos.interrogative&quot;:&quot;Interrogative&quot;,&quot;pos.kana&quot;:&quot;Kana&quot;,&quot;pos.none&quot;:&quot;None&quot;,&quot;pos.noun&quot;:&quot;Noun&quot;,&quot;pos.noun abbreviation&quot;:&quot;Noun Abbreviation&quot;,&quot;pos.particle&quot;:&quot;Particle&quot;,&quot;pos.phrasal verb&quot;:&quot;Phrasal Verb&quot;,&quot;pos.phrase&quot;:&quot;Phrase&quot;,&quot;pos.prefix&quot;:&quot;Prefix&quot;,&quot;pos.preposition&quot;:&quot;Preposition&quot;,&quot;pos.pronoun&quot;:&quot;Pronoun&quot;,&quot;pos.proper noun&quot;:&quot;Proper Noun&quot;,&quot;pos.suffix&quot;:&quot;Suffix&quot;,&quot;pos.verb&quot;:&quot;Verb&quot;,&quot;pos.verbal noun&quot;:&quot;Verbal Noun&quot;,&quot;prompt-new&quot;:&quot;How well do you know this?&quot;,&quot;prompt-repeat&quot;:&quot;Do you remember this now?&quot;,&quot;prompt-review&quot;:&quot;How well do you remember this?&quot;,&quot;radial-progress.level&quot;:&quot;Level&quot;,&quot;ready-label&quot;:&quot;Ready:&quot;,&quot;remove-from-saved&quot;:&quot;Remove from Saved&quot;,&quot;remove-from-studying&quot;:&quot;Remove from Studying&quot;,&quot;reset items&quot;:&quot;Reset&quot;,&quot;response&quot;:&quot;Response&quot;,&quot;save-for-later&quot;:&quot;Add to Saved&quot;,&quot;search-courses-by-title&quot;:&quot;Search courses by title&quot;,&quot;self-assessment.check&quot;:&quot;Check&quot;,&quot;sentence-builder-quiz-instructions&quot;:&quot;Build the sentence by clicking on or dragging words in the correct order.&quot;,&quot;sentence-builder-recall-listening-instructions&quot;:&quot;Listen to the sentence and be ready to build it on the next screen.&quot;,&quot;sentence-builder-recall-reading-instructions&quot;:&quot;Read the sentence and think of how you would say this.&quot;,&quot;sentences&quot;:&quot;Sentences&quot;,&quot;sentences-label&quot;:&quot;Sentences:&quot;,&quot;series-label&quot;:&quot;Series:&quot;,&quot;settings.label&quot;:&quot;Settings&quot;,&quot;show-hint&quot;:&quot;Show hint&quot;,&quot;skip items&quot;:&quot;Remove&quot;,&quot;sort by&quot;:&quot;Sort by:&quot;,&quot;sort-by&quot;:&quot;Sort by:&quot;,&quot;sort.cue&quot;:&quot;Cue&quot;,&quot;sort.part of speech&quot;:&quot;Part of speech&quot;,&quot;sort.recommended&quot;:&quot;Recommended&quot;,&quot;spelling&quot;:&quot;Spelling&quot;,&quot;start&quot;:&quot;Start&quot;,&quot;stroke order&quot;:&quot;Stroke Order&quot;,&quot;study progress&quot;:&quot;Study progress&quot;,&quot;study-all.label&quot;:&quot;Study All&quot;,&quot;study-more-less-dialogue-description&quot;:&quot;\&quot;Study More\&quot; and \&quot;Study Less\&quot; allow you to mark items as hard or easy and tune how often you see them. Clicking \&quot;Study Less\&quot; delays the next review of the item, while \&quot;Study More\&quot; means you&#39;ll review the item sooner. \&quot;Study More\&quot; will also bring this item back in this session.\u003cbr\u003e\u003cbr\u003eThis feature is optional and only recommended for when you are confident that you want to see an item more or less often.&quot;,&quot;study-more-less-dialogue-header&quot;:&quot;Study Frequency&quot;,&quot;study-progress.items-started&quot;:&quot;Total Items&quot;,&quot;study-progress.items-zone-0&quot;:&quot;Learning Items&quot;,&quot;study-progress.items-zone-1&quot;:&quot;Familiar Items&quot;,&quot;study-progress.items-zone-2&quot;:&quot;Mastered Items&quot;,&quot;study-progress.label&quot;:&quot;Study Progress&quot;,&quot;study-time.header&quot;:&quot;Study Time&quot;,&quot;study-time.items&quot;:&quot;iKnow!&quot;,&quot;study-time.sentences&quot;:&quot;Sentence Trainer&quot;,&quot;study-time.total&quot;:&quot;Total&quot;,&quot;this week at&quot;:&quot;%{weekday} at %{hours}:%{minutes}%{twelve_hour}&quot;,&quot;too bad!&quot;:&quot;Incorrect&quot;,&quot;unskip&quot;:&quot;Restore&quot;,&quot;upper intermediate&quot;:&quot;Upper Intermediate&quot;,&quot;users-label&quot;:&quot;Users:&quot;,&quot;very-well&quot;:&quot;Very Well&quot;,&quot;very-well-review&quot;:&quot;Very Well&quot;,&quot;weak-items&quot;:&quot;Ready:&quot;,&quot;well&quot;:&quot;Well&quot;,&quot;well-review&quot;:&quot;Well&quot;,&quot;yesterday at&quot;:&quot;yesterday at %{hours}:%{minutes}%{twelve_hour}&quot;,&quot;you have no custom courses to add items&quot;:&quot;You don&#39;t have any custom courses to add items to. Please first make a custom course.&quot;,&quot;{time} days from now&quot;:&quot;%{time} days from now&quot;,&quot;{time} hours from now&quot;:&quot;In %{time} hours&quot;,&quot;{time} minutes from now&quot;:&quot;%{time} Minutes from now&quot;,&quot;{time} months from now&quot;:&quot;%{time} months from now&quot;,&quot;{time} weeks from now&quot;:&quot;%{time} weeks from now&quot;,&quot;january [month]&quot;:&quot;January&quot;,&quot;february [month]&quot;:&quot;February&quot;,&quot;march [month]&quot;:&quot;March&quot;,&quot;april [month]&quot;:&quot;April&quot;,&quot;may [month]&quot;:&quot;May&quot;,&quot;june [month]&quot;:&quot;June&quot;,&quot;july [month]&quot;:&quot;July&quot;,&quot;august [month]&quot;:&quot;August&quot;,&quot;september [month]&quot;:&quot;September&quot;,&quot;october [month]&quot;:&quot;October&quot;,&quot;november [month]&quot;:&quot;November&quot;,&quot;december [month]&quot;:&quot;December&quot;,&quot;sunday [weekday]&quot;:&quot;Sunday&quot;,&quot;monday [weekday]&quot;:&quot;Monday&quot;,&quot;tuesday [weekday]&quot;:&quot;Tuesday&quot;,&quot;wednesday [weekday]&quot;:&quot;Wednesday&quot;,&quot;thursday [weekday]&quot;:&quot;Thursday&quot;,&quot;friday [weekday]&quot;:&quot;Friday&quot;,&quot;saturday [weekday]&quot;:&quot;Saturday&quot;,&quot;achievements.study-time&quot;:&quot;Hours Studied Progress&quot;,&quot;achievements.items-completed&quot;:&quot;Mastered Items Progress&quot;,&quot;achievements.weekly-target&quot;:&quot;Weekly Target Progress&quot;,&quot;achievements.share-items-completed-{count}&quot;:&quot;Earned an achievement! Mastered %{count} items - iKnow! |||| Earned an achievement! Mastered %{count} items - iKnow!&quot;,&quot;achievements.share-weekly-target-{count}&quot;:&quot;Earned an achievement! Reached %{count} weekly target - iKnow! |||| Earned an achievement! Reached %{count} weekly targets - iKnow!&quot;,&quot;achievements.share-study-time-{count}&quot;:&quot;Earned an achievement! Studied %{count} hour - iKnow! |||| Earned an achievement! Studied %{count} hours - iKnow!&quot;,&quot;items added.&quot;:&quot;Items added.&quot;,&quot;added items to collected set.&quot;:&quot;Added to Saved Items.&quot;,&quot;unskipped items.&quot;:&quot;Restored items&quot;,&quot;skipped items.&quot;:&quot;Removed items&quot;,&quot;do you really want to remove all progress on the selected items?&quot;:&quot;Do you really want to remove all progress on the selected items?&quot;,&quot;do you really want to mark selected items as mastered?&quot;:&quot;Do you really want to mark selected items as mastered?&quot;,&quot;items marked as completed.&quot;:&quot;items marked as completed.&quot;,&quot;items progress deleted.&quot;:&quot;Items progress deleted.&quot;,&quot;you must be logged in to do that.&quot;:&quot;You must be logged in to do that.&quot;,&quot;register to see more&quot;:&quot;register to see more&quot;,&quot;js_templates.sentences&quot;:&quot;Edit sentences&quot;,&quot;js_templates.delete&quot;:&quot;Delete&quot;,&quot;edit&quot;:&quot;Edit&quot;,&quot;add sentence&quot;:&quot;Add Sentence&quot;,&quot;error.label&quot;:&quot;error&quot;,&quot;review items&quot;:&quot;Items Reviewed&quot;,&quot;started items&quot;:&quot;Items Started&quot;,&quot;completed items&quot;:&quot;Items Mastered&quot;,&quot;study time&quot;:&quot;Time&quot;,&quot;listening&quot;:&quot;Sentences&quot;,&quot;speaking&quot;:&quot;Speaking&quot;,&quot;browser-close-unsaveable&quot;:&quot;To save your progress before leaving this page, click the button below to stay on this page, then click the [X] quit button at the top right of the iKnow! application.&quot;,&quot;{month} {day}{suffix}, {year}&quot;:&quot;translation missing: en.{month} {day}{suffix}, {year}&quot;,&quot;{sec}s&quot;:&quot;%{sec}\u003cspan\u003es\u003c/span\u003e&quot;,&quot;{min}m {sec}s&quot;:&quot;%{min}\u003cspan\u003em\u003c/span\u003e %{sec}\u003cspan\u003es\u003c/span\u003e&quot;,&quot;{min}m&quot;:&quot;%{min}\u003cspan\u003em\u003c/span\u003e&quot;,&quot;{hour}h {min}m&quot;:&quot;%{hour}\u003cspan\u003eh\u003c/span\u003e%{min}\u003cspan\u003em\u003c/span\u003e&quot;,&quot;{hour}h&quot;:&quot;%{hour}h&quot;,&quot;{sec} sec&quot;:&quot;%{sec} sec\n&quot;,&quot;{min} min&quot;:&quot;%{min} min&quot;,&quot;{hour} hour&quot;:&quot;%{hour} hour&quot;,&quot;{sec} second&quot;:&quot;%{sec}\u003cspan\u003esecond\u003c/span\u003e&quot;,&quot;{sec} seconds&quot;:&quot;%{sec}\u003cspan\u003eseconds\u003c/span\u003e&quot;,&quot;{min} min {sec} sec&quot;:&quot;%{min} min %{sec} sec&quot;,&quot;{min} minute&quot;:&quot;%{min}\u003cspan\u003eminute\u003c/span\u003e&quot;,&quot;{min} minutes&quot;:&quot;%{min}\u003cspan\u003eminutes\u003c/span\u003e&quot;,&quot;{hour} hour {min} min&quot;:&quot;%{hour} hour %{min} min&quot;,&quot;{hour} hours {min} min&quot;:&quot;%{hour}\u003cspan\u003ehours\u003c/span\u003e%{min}\u003cspan\u003emin\u003c/span\u003e&quot;,&quot;add&quot;:&quot;Add&quot;,&quot;remove&quot;:&quot;Remove&quot;,&quot;update&quot;:&quot;Update&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;cue&quot;:&quot;Cue&quot;,&quot;transliteration&quot;:&quot;Transliteration&quot;,&quot;part of speech&quot;:&quot;Part of Speech&quot;,&quot;you can confirm/edit auto-generated sound after added this item&quot;:&quot;You can edit the auto-generated audio after you have added this item&quot;,&quot;exceeded recommended length&quot;:&quot;exceeded recommended length&quot;,&quot;file upload failed&quot;:&quot;File upload failed.\nPlease check the file size and format.&quot;}" id="iknow-strings">
+
+
+  
+      <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments) ;}
+    gtag('set', {
+      'i3_p_page_type': 'other',
+      'i3_p_env': 'production',
+    });
+    </script>
+
+      <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PLC9LTZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PLC9LTZ');</script>
+    <!-- End Google Tag Manager -->
+
+  
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      try {
+      var pageTracker = _gat._getTracker('UA-20259286-1');
+      pageTracker._setDomainName("none");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+      } catch(err) {}
+      //--><!]]>
+      </script>
+
+
+
+
+  
+
+</head>
+
+
+
+  <body data-controller="courses" data-namespace="custom/courses" data-layout="application" data-action="show" data-session="logged-in" data-role="user" data-language="en" class="courses show en  application">
+    
+
+    
+
+    <nav class="global_navi">
+  <div id="site_notice"></div>
+
+    
+
+  <div class="container_12 inner_navigation">
+    <figure class="main-logo-container">
+      <div class="inner-logo">
+        <a alt="iKnow!" href="/home">
+          <div class="logo-body"></div>
+</a>      </div>
+    </figure>
+
+      <ul class="site_navi default_navi">
+  <li class="item" data-menu="home">
+    <h3>
+      <a href="/home">
+        <span class="navi_home font_icon">&#xe016;</span>
+        <span class="text">Home</span>
+        <span class="caret"></span>
+</a>    </h3>
+
+    <div class="dropdown">
+      <div class="arrow icon dropdown_arrow"></div>
+      <div class="content">
+        <ul>
+          <li><a class="" href="/home/calendars">Calendar</a></li>
+          <li><a class="" href="/home/reports/current">Progress</a></li>
+        </ul>
+      </div>
+    </div>
+</li>
+  <li class="item current" data-menu="courses">
+    <h3>
+      <a href="/content">
+        <span class="navi_courses font_icon">&#xe044;</span>
+        <span class="text">Courses</span>
+</a>    </h3>
+</li>
+</ul>
+
+
+    <div class="user_badge">
+    <figure class="badge_icon premium_badge" data-tooltip="{&quot;hook&quot;:{&quot;target&quot;:&quot;bottommiddle&quot;,&quot;tooltip&quot;:&quot;topmiddle&quot;}}" data-title="iKnow! Pro User"><a class="description" href="/payment?origin=premium_badge">Pro</a></figure>
+
+
+  <div class="settings" data-content-tooltip-container="data-content-tooltip-container">
+    <span class="btn gear dark-bg" data-content-tooltip-anchor="true" data-position="fixed" data-hook="{&quot;tooltip&quot;:&quot;topright&quot;,&quot;target&quot;:&quot;bottommiddle&quot;}">Settings</span>
+
+    <aside class="content-menu settings-content" data-content-tooltip="data-content-tooltip">
+      <header class="menu-category user-description">
+        <a class="profile-container" href="/users/edochan">
+
+          <aside class="secondary-information">
+            <div class="username ellipsis" title="edochan">edochan</div>
+
+              <div class="descriptor">View Profile</div>
+          </aside>
+</a>      </header>
+
+      <ul class="menu-category">
+        <li class="menu-item item-settings"><a class="inside" href="/account/edit">Settings</a></li>
+
+          <li><a class="locale inside menu-item item-language" rel="nofollow" data-method="put" href="/locale?language_code=ja">日本語</a></li>
+
+
+        <li class="menu-item item-help"><a target="_blank" class="inside help" href="/zendesk">Help</a></li>
+
+          <li class="menu-item item-referral"><a class="inside" data-tracking-id="referral_link2" href="/referral">Refer Friends</a></li>
+      </ul>
+
+      <ul class='menu-category'>
+        <li class="menu-item item-logout"><a class="inside" rel="nofollow" data-method="delete" href="/session">Log Out</a></li>
+      </ul>
+    </aside>
+  </div>
+</div>
+
+
+
+
+  </div>
+</nav>
+
+
+    <section class="container_12">
+      <section class="content">
+        
+        <div class="wrapper clearfix ">
+          
+          <section class="content-container content-summary">
+  <div id="summary" class="anchor-hook"></div>
+
+  <header class="content-details">
+    <div class="details-primary course-title ellipsis" title="chinese week 6">chinese week 6</div>
+
+    <div class="details-secondary">
+      
+  <span class="action-link course-action focus" data-course="1107063">Add to Studying</span>
+
+  <span class="action-link course-action enroll" data-course="1107063">Add to Saved</span>
+
+
+
+
+
+    </div>
+  </header>
+
+  <div class="content-primary content-columns">
+    <div class="content-column course-picture">
+      <figure class="content-figure rounded" data-size="large"></figure>
+
+      <a title="Course Settings" alt="Course Settings" data-modal-link="true" data-fancybox-type="ajax" class="action-link" href="/custom/courses/1107063/edit">Settings</a>
+
+    </div>
+
+    <div class="content-column course-data">
+      <section class="content-columns stats">
+
+          <div class="content-column stat creator">
+            <span class="secondary">by</span>
+              <span class="primary">edochan</span>
+          </div>
+      </section>
+
+      <section class="content-columns stats">
+          <div class="content-column stat language">
+            <span class="secondary">language</span>
+            <span class="primary">Simplified Chinese</span>
+          </div>
+
+        <div class="content-column stat items">
+          <span class="secondary">Items:</span>
+          <span class="primary">4</span>
+        </div>
+
+        <div class="content-column stat sentences">
+          <span class="secondary">Sentences:</span>
+          <span class="primary">0</span>
+        </div>
+      </section>
+
+      <section class="content-columns stats">
+        <div class="content-column stat enrolled">
+          <span class="secondary">Users:</span>
+          <span class="primary">0</span>
+        </div>
+      </section>
+
+      <section class="description">
+        
+      </section>
+    </div>
+
+    <div class="content-column course-actions">
+        <div class="action iknow">
+          <a rel="app" class="btn launch iknow" href="/courses/1107063/iknow"></a>
+          <h3>Start!</h3>
+        </div>
+    </div>
+  </div>
+</section>
+
+<div class="hidden">
+  <div id="publish_confirmation" class="publish_notice">
+    <p class="notice_alert">Please note the following:</p>
+    <p class="notice_text">It is against the service rules to post any content (text, images, audio) that infringes copyright and trademark rights.</p>
+    <p class="notice_confirm"><input type="checkbox" name="accept_publish" id="accept_publish" value="1" /> <label for="accept_publish">I confirm that there is no copyright infringing content in my course</label></p>
+    <footer class="content-actions">
+      <a class="btn btn-bar do_publish" rel="nofollow" data-method="put" href="/custom/courses/1107063?goal%5Bprivacy_type_id%5D=3">Publish</a>
+    </footer>
+  </div>
+</div>
+
+<nav class="content-tabs">
+  <div id="main-content" class="anchor-hook"></div>
+  <ul data-panel-selector="data-panel-selector" data-no-history>
+    <li class="content-tab" data-panel="word-listing" data-panel-selected="true">Items & Sentences</li>
+  </ul>
+  <aside class="content-options">
+    
+  </aside>
+</nav>
+
+<section class="content-container main-content">
+  <div data-panel-container="data-panel-container">
+    <section class="panel-content clearfix" data-panel="word-listing" data-panel-selected="data-panel-selected">
+      <div id="item_explorer" class="content-word-listing">
+  <header class="content-details">
+    
+<div class="details-primary">
+    <div class="bulk_actions actions">
+      <input type="checkbox" name="select_all_items" id="select_all_items" value="1" />
+      <select name="bulk_actions">
+        <option value="add_item_to_goal" title="Add to course">Add to course</option>
+        <option value="delete_item" title="Delete items">Delete items</option>
+      </select>
+      <input type="button" class="apply" value="Apply">
+    </div>
+    <div class="actions">
+      <a class="add_item btn btn-bar btn-small hidden" href="#!/new">Add Item</a>
+    </div>
+</div>
+
+  <div class="details-secondary">
+    <div class="filters">
+      <form id="item_explorer_filter" action="#!/filter" method="post">
+          <label for="sort">Sort by:</label>
+            <select id="sort" name="sort">
+              <option value="default">Default</option>
+              <option value="pos">Part of speech</option>
+              <option value="cue">Cue</option>
+              <option value="response">Response</option>
+            </select>
+            <input type="text" name="keyword" class="content-field search" placeholder="Filter items" />
+      </form>
+    </div>
+  </div>
+
+
+
+  </header>
+
+
+
+
+  <section class="item_explorer clearfix">
+    <ul class="items">
+      <li class="loading"><img src="https://assets1.iknow.jp/_assets/common/loading-462ccf10494e229f49d5fc9e9d2735f2931dfd1573f67ae5043e4bacd28d9270.gif" /></li>
+    </ul>
+  </section>
+
+    <footer class="content-details">
+      
+<div class="details-primary">
+    <div class="bulk_actions actions">
+      <input type="checkbox" name="select_all_items" id="select_all_items" value="1" />
+      <select name="bulk_actions">
+        <option value="add_item_to_goal" title="Add to course">Add to course</option>
+        <option value="delete_item" title="Delete items">Delete items</option>
+      </select>
+      <input type="button" class="apply" value="Apply">
+    </div>
+    <div class="actions">
+      <a class="add_item btn btn-bar btn-small hidden" href="#!/new">Add Item</a>
+    </div>
+</div>
+
+
+    </footer>
+</div>
+
+
+
+
+
+    </section>
+  </div>
+</section>
+
+
+        </div>
+      </section>
+
+      <footer class="content_footer">
+        
+      </footer>
+    </section>
+
+    <div class="container_12">
+  <footer class="page_footer">
+    <section class="clearfix big_footer">
+      <dl>
+        <dt>Product and Service</dt>
+        <dd><a href="/home">iKnow!</a></dd>
+        <dd><a href="/business">iKnow! for Business</a></dd>
+        <dd><a href="/school">iKnow! for Schools</a></dd>
+          <dd><a href="/mobile_app">Get Our Mobile Apps!</a></dd>
+      </dl>
+      <dl>
+        <dt>Community</dt>
+            <dd>
+              <a href="/user_courses">Shared Courses</a>
+            </dd>
+          <dd>
+            <a target="_blank" href="http://blog.iknow.jp/en/">iKnow! Blog</a>
+          </dd>
+        <dd>
+        <a target="_blank" href="http://twitter.com/#!/iKnowTeam"><img alt="Link to Twitter." src="https://assets2.iknow.jp/_assets/common/twitter_icon-bcc121f5f33ac6ee504e1df343a60190d2445aabad2926614d8d57d9884509c8.png" /></a>
+          <a target="_blank" href="http://twitter.com/#!/iKnowTeam">iKnow! on Twitter</a>
+        </dd>
+        <dd>
+          
+
+          
+        </dd>
+          <dd>
+            <a href="/referral">Refer Friends</a>
+          </dd>
+      </dl>
+      <dl>
+        <dt>How to Use</dt>
+        <dd><a href="/tour">Guide to iKnow!</a></dd>
+          <dd><a href="/custom">How to Make Custom Courses</a></dd>
+          <dd><a href="/guides/ja">Guide to Japanese</a></dd>
+        <dd><a href="/guides/cn">Guide to Chinese</a></dd>
+      </dl>
+      <dl class="last">
+        <dt>Support</dt>
+        <dd><a target="_blank" href="/zendesk">Support & FAQ</a></dd>
+        <dd><a href="/env_check">Environment Check</a></dd>
+        <dd><a href="/discount_code/new">Redeem Coupon</a></dd>
+      </dl>
+    </section>
+    <div class="copyright">
+  <small>Copyright &copy; <a target="_blank" href="https://dmm-corp.com/company/">DMM</a> All Rights Reserved</small>
+
+  <ul>
+    <li><a href="https://dmm-corp.com/company/">Company Info</a></li>
+    <li><a href="https://app.engoo.com/jobs">Jobs</a></li>
+      <li><a href="/policy">Terms of Service</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li class="last"><a href="/policy/commercial">Commercial Policy</a></li>
+  </ul>
+
+</div>
+
+  </footer>
+</div>
+
+    <script src="https://assets3.iknow.jp/_assets/application-6bc0e3955854b999bcd14840764f8d50849ae80e0093800a8ec9a44c4565805d.js"></script>
+<script src="https://assets2.iknow.jp/_assets/js/bundle-8fb886f4dd4b80b9de63.js"></script>
+
+
+
+
+
+  <script type="text/javascript">
+      $(function() {
+        if($.cookie('course_removed_from_focus')) {
+          $.cookie('course_removed_from_focus', null, {path: '/'});
+          $.growl.notice("Course removed from study");
+        }
+
+        if($.cookie('course_added_to_focus')) {
+          $.cookie('course_added_to_focus', null, {path: '/'});
+          $.growl.notice("Course added to studying.");
+        }
+
+        if($.cookie('course_added_to_now_studying')) {
+          $.cookie('course_added_to_now_studying', null, {path: '/'});
+          $.growl.notice("Course saved for later.");
+        }
+
+        $('.course-action.unfocus').click(function () {
+          $(this).addClass('loading');
+          $(this).text("Removing...");
+          $('.course-action.unfocus').not(this).hide();
+          $('.course-action.unenroll').hide();
+
+          App.API.postUnfocusGoal($(this).data('course')).then(function() {
+            $.cookie('course_removed_from_focus', true, {path: '/'});
+            location.reload();
+          });
+
+          return false;
+        }).show();
+
+        $('.course-action.focus').click(function () {
+          $(this).addClass('loading');
+          $(this).text("Adding...");
+          $('.course-action.focus').not(this).hide();
+          $('.course-action.unenroll').hide();
+          $(this).parent().parent().find('.course-action.unenroll').hide();
+
+          App.API.postFocusGoal($(this).data('course')).then(function() {
+            $.cookie('course_added_to_focus', true, {path: '/'});
+            location.reload();
+          });
+
+          return false;
+        }).show();
+
+        $('.course-action.enroll').click(function () {
+          $this = $(this);
+
+          $this.addClass('loading');
+          $this.text("Adding...");
+
+          $('.course-action.focus').not(this).hide();
+
+          App.API.postEnrollGoal($this.data('course'), {focus: false}).then(function() {
+            $.cookie('course_added_to_now_studying', true, {path: '/'});
+            location.reload();
+          });
+
+          return false;
+        }).show();
+
+        $('.course-action.unenroll').click(function () {
+          var agree = confirm("Are you sure you want to remove this course?");
+          if (agree) {
+            $(this).addClass('loading');
+            $(this).text("Removing...");
+            $('.course-action.focus').hide();
+            $('.course-action.unfocus').hide();
+            $('.course-action.unenroll').not(this).hide();
+            $(this).parent().parent().find('.course-action.focus').hide();
+
+            App.API.postUnenrollGoal($(this).data('course')).then(function() {
+              window.location = '/home';
+            });
+
+            return false;
+          } else {
+            return false;
+          }
+        }).show();
+      });
+  </script>
+    <script type="text/javascript">
+      $(function() {
+        $('select#sort').change(function () {
+          $('form#item_explorer_filter').submit();
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        $('.bulk_actions input[type="checkbox"]').click(function() {
+          $('input[type="checkbox"]').attr('checked', this.checked);
+          if(this.checked) $('.item_explorer li').addClass('selected');
+          else $('.item_explorer li').removeClass('selected');
+        });
+
+        // Untick bulk checkbox if any of the list checkboxes has been selected.
+        $( ".item_explorer" ).on( "change", ".checkbox", function() {
+          if($(this).not(":checked")) {
+            $('.bulk_actions input[type="checkbox"]').attr('checked', false);
+          }
+        });
+      });
+    </script>
+  <script type="text/javascript">
+    $(function() {
+      $('select.sort').change(function () {
+        $('form.item_explorer_filter').submit();
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    // THIS DOES NOTHING !!
+    $(document).bind('itemsAddedToGoal', function() {
+      setTimeout(function() {
+        if ($('#item_explorer ul.items > li').length > 2) {
+          $('.unpublishable').slideUp();
+          $('.publishable').slideDown();
+        }
+      }, 100)
+    })
+
+    // window.load required here to allow youtube embeds to load
+    $(window).bind('load', function () {
+      var p = $('.content_editor .description');
+      var d = $('.content_editor .description .full_content');
+      var hasEmbed = (/<iframe.+>/i).test(d.html());
+      var toggle = $('.content_editor .description .toggle');
+      var h1 = p.height();
+      var h2 = d.height();
+      var show = false;
+      toggle.click(function(){
+        show = !show;
+        p.css('height', show ? 'auto' : h1);
+        toggle.text(toggle.attr(show ? 'data-show-less' : 'data-show-more'));
+        return false;
+      });
+
+      if(hasEmbed) {
+        toggle.click();
+      }
+      else if(h2 > h1){
+        toggle.show();
+        toggle.text(toggle.data('show-more'));
+      }
+      else {
+        toggle.hide();
+      }
+    });
+    $(function () {
+      //select global nav
+      $('ul.site_navi li.current .dropdown ul li:nth-child(5) a').addClass('selected');
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#accept_publish').click(function(){
+        var confirmed = $('#accept_publish').is(':checked'),
+        $confirmButton = $('#publish_confirmation .content-actions .do_publish');
+
+        if (confirmed){
+          $confirmButton.css('visibility','visible');
+        } else {
+          $confirmButton.css('visibility','hidden');
+        }
+      });
+    });
+  </script>
+  <script src="https://assets3.iknow.jp/_assets/sammy-8e37ea001455ad7c62666faee5e6b79e3beb66de2855ef5e5343df38d186c5cd.js"></script>
+  <script src="https://assets2.iknow.jp/_assets/content_editor-b8f35c4c1efc6e55ef944756e45e4d7ef46cc74066129e64946a1b0a28535790.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $.content_editor.init({"cache":true,"debug":false,"wrapper":"#item_explorer","context":{"goal":1107063},"routes":{"items":{"index":"/custom/courses/1107063/items","create":"/custom/courses/1107063/items","update":"/custom/courses/1107063/items/__item_id__","autocomplete":"/custom/courses/1107063/items/autocomplete","matching":"/custom/courses/1107063/items/matching","sentences":{"build":"/custom/courses/1107063/items/__item_id__/sentences/new","edit":"/custom/courses/1107063/items/__item_id__/sentences/__sentence_id__/edit","destroy":"/custom/courses/1107063/items/__item_id__/sentences/__sentence_id__"},"sound":"/custom/courses/1107063/items/__item_id__/edit?field=sound"}},"transliteration":true,"max_item_count":1700,"max_sentence_count":5,"recommended_length":{"item":45},"language":{"cue":"zh-Hans","response":"en"},"part_of_speech":{"ordered":["N","V","E","A","D","PH","PL","I","INT","J","PR","AN","VA","VN","NA","NR","NP","NONE"],"labeled":{"N":"Noun","V":"Verb","E":"Phrase","A":"Adjective","D":"Adverb","PH":"Phrasal Verb","PL":"Particle","I":"Interjection","INT":"Interrogative","J":"Conjunction","PR":"Preposition","AN":"Adjectival Noun","VA":"Auxiliary Verb","VN":"Verbal Noun","NA":"Noun Abbreviation","NR":"Pronoun","NP":"Proper Noun","NONE":"None"}}});
+      // display all items before adding a new one #4904
+      $("a[href='#!/new']").click(function() {
+        $("form.more input.submit").click();
+      });
+      $('#add_manually').click(function() {
+        $('#item_explorer').slideDown();
+        $('#item_add_method').hide();
+        $('.no_items').slideUp();
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.notification.setup([])
+    });
+  </script>
+  <script type="text/javascript">
+    // REFACTOR: This could be done cleaner.
+    if ($('.subscription-notice').length > 0) {
+      $('body').addClass('subscription-notice-present');
+    }
+
+    // REFACTOR: I have no idea if this is still being used anywhere.
+    // The session_incremented event is triggered in the learning app.
+    // I don't think that the header is ever visible in the learning app.
+    $(document).ready(function(){
+      var $sessions = $('.global_navi .badge_icon.trial_badge');
+      var $num = $('.global_navi .badge_icon.trial_badge strong');
+
+      $(document).bind('session_incremented', function(e, data) {
+        var $count = data.remaining;
+
+        $num.text($count);
+        $sessions.attr('data-count', $count)
+      });
+    });
+  </script>
+  <script>
+    $("a[data-tracking-id='referral_link2']").click(function() {
+      pageTracker._trackEvent("button_clicked", "{\"button_id\":\"referral_link2_track\",\"include_script_tags\":false}");
+    });
+  </script>
+
+<iframe id="app_frame" style="display:none" frameborder="0"></iframe>
+
+
+</body></html>
