@@ -37,5 +37,3 @@ vocabulary_items = [
     # Add more items here
 ]
 ```
-
-Note: You'll need to be logged into iKnow in your browser for this to work. 
